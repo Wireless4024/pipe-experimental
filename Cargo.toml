@@ -1,0 +1,16 @@
+[package]
+name = "pipe-experimental"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "spawn"
+[[bin]]
+name = "attach"
+[[bin]]
+name = "release"
+
+[dependencies]
+nix = "0.26"
